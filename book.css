@@ -1,0 +1,286 @@
+@import "reset.css";
+@font-face {
+  font-family: "KOTRA_BOLD-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MapoGoldenPier";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GyeonggiTitleM";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+.nanumsquare {
+  font-family: "NanumSquare", sans-serif !important;
+}
+@font-face {
+  font-family: "RIDIBatang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HangeulNuri-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "KOTRA_BOLD-Bold";
+  height: 1000vh;
+}
+.first-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff7d4;
+}
+.first-line img {
+  height: 70px;
+  width: 70px;
+  margin-left: 10px;
+}
+.first-line h2 {
+  font-size: 30px;
+}
+
+.second-line {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  background-color: orange;
+}
+
+.second-line_b {
+  margin-left: 800px;
+}
+.second-line_a .second-line_a_btn {
+  font-style: strong;
+}
+.second-line button {
+  font-size: 15px;
+  border: none;
+  background-color: orange;
+  border-radius: 10px;
+  font-family: "KOTRA_BOLD-Bold";
+  padding: 5px;
+}
+.second-line button :visited {
+  color: black;
+}
+.second-line button a {
+  text-decoration: none;
+}
+
+.third-line {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.third-line_title {
+  margin-bottom: 25px;
+  opacity: 70%;
+  font-size: 20px;
+  color: orangered;
+}
+.third-line_book {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.third-line_book_info {
+  margin-top: 10px;
+  opacity: 60%;
+}
+.third-line_book_info span {
+  color: red;
+}
+.main-box {
+  height: 1000vh;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.cut-line {
+  border: 5px bisque dotted;
+  border-top: none;
+}
+.book_sub {
+  font-size: 15px;
+  opacity: 60%;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.book_title {
+  margin-top: 20px;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.book_title span {
+  font-size: 18px;
+  margin-left: 5px;
+}
+.fa-volume-mute {
+  margin-right: 10px;
+  color: red;
+  opacity: 60%;
+}
+.book img {
+  width: 800px;
+  height: 430px;
+  margin-top: 20px;
+  border: blanchedalmond 4px solid;
+}
+.research {
+  display: flex;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+.research h2 {
+  margin-top: 40px;
+}
+.research_qu {
+  margin-top: 20px;
+}
+.research_info {
+  margin-left: 40px;
+  margin-bottom: 50px;
+  width: 100%;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.first_research {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+.first_research span:first-child {
+  padding-right: 10px;
+}
+.angry {
+  padding-left: 10px;
+}
+.research_qu2 {
+  margin-top: 30px;
+  line-height: 20px;
+}
+.second-research {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+.second-research span:first-child {
+  padding-right: 10px;
+}
+.circle {
+  padding-left: 10px;
+}
+.research_info3 {
+  margin-top: 20px;
+}
+.research_qu3 {
+  margin-top: 20px;
+}
+.research_info3 input {
+  padding: 15px;
+  width: 90%;
+  border: black 1px solid;
+  font-family: "HangeulNuri-Bold";
+}
+.research_info3 input::placeholder {
+  font-family: "KOTRA_BOLD-Bold";
+}
+.submit {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.submit input {
+  padding: 10px 40px;
+  font-family: "KOTRA_BOLD-Bold";
+  font-size: 20px;
+  border-radius: 20%;
+}
+.book-infobox {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.book-infobox_title {
+  font-size: 21px;
+  margin-top: 20px;
+}
+
+.book-infobox_info {
+  margin-top: 20px;
+  line-height: 25px;
+  font-size: 15px;
+  font-family: "HangeulNuri-Bold";
+}
+
+.highlight {
+  background-color: #ffdfb9;
+  border-radius: 20%;
+}
+.red {
+  color: red;
+}
+.blue {
+  color: #339af0;
+}
+.green {
+  color: #84b252;
+  font-size: 25px;
+}
+.green-small {
+  color: #84b252;
+  font-size: 17px;
+}
+.gray {
+  opacity: 60%;
+  font-size: 14px;
+}
+.tree-icon:nth-child(2) {
+  margin-left: 3px;
+}
+.tree-icon:nth-child(1) {
+  margin-right: 3px;
+}
+.research-info-main {
+  text-align: center;
+  margin-bottom: 10px;
+  top: 20px;
+}
+
+.first {
+  background-color: #f7c770;
+
+  padding: 2px;
+}
+.second {
+  background-color: #c7c0c7;
+}
