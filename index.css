@@ -150,7 +150,7 @@ body {
   width: 800px;
   height: 430px;
   margin-top: 20px;
-  border: blanchedalmond 4px solid;
+  border: black 2px solid;
 }
 .research {
   display: flex;
@@ -171,6 +171,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.research-info-main {
+  font-size: 25px;
+}
 
 .first_research {
   display: flex;
@@ -186,7 +189,8 @@ body {
 }
 .research_qu2 {
   margin-top: 30px;
-  line-height: 20px;
+  line-height: 23px;
+  text-align: center;
 }
 .second-research {
   display: flex;
@@ -214,6 +218,7 @@ body {
 }
 .research_info3 input::placeholder {
   font-family: "KOTRA_BOLD-Bold";
+  text-align: center;
 }
 .submit {
   margin-top: 20px;
