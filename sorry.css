@@ -38,6 +38,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 body {
   font-family: "KOTRA_BOLD-Bold";
 }
@@ -82,6 +83,11 @@ body {
   font-family: "KOTRA_BOLD-Bold";
   padding: 5px;
   color: #fcf6f5;
+}
+.second-line button :hover {
+  border: #fcf6f5 2px solid;
+  border-radius: 10px;
+  padding: 5px;
 }
 .second-line button :visited {
   color: #fcf6f5;

@@ -80,6 +80,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "MapoGoldenPier";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   font-family: "KOTRA_BOLD-Bold";
   height: 1000vh;
@@ -109,7 +116,11 @@ body {
   padding-bottom: 8px;
   background-color: orange;
 }
-
+.second-line button :hover {
+  border: black 2px solid;
+  border-radius: 10px;
+  padding: 5px;
+}
 .second-line_b {
   margin-left: 800px;
 }
@@ -126,11 +137,6 @@ body {
 }
 .second-line button :visited {
   color: black;
-}
-.third-line button .second-line button :hover {
-  border: black 2px solid;
-  border-radius: 10px;
-  padding: 5px;
 }
 .second-line button a {
   text-decoration: none;
@@ -152,7 +158,7 @@ body {
 }
 .third-line_book {
   margin-bottom: 10px;
-  font-size: 30px;
+  font-size: 27px;
 }
 
 .third-line_book_info {
@@ -162,26 +168,7 @@ body {
 .third-line_book_info span {
   color: red;
 }
-.third-line button {
-  border: none;
-  font-family: "KOTRA_BOLD-Bold";
-  font-size: 16px;
-  margin-top: 15px;
-  background-color: bisque;
-  padding: 7px 2px;
-  border-radius: 5px;
-}
-.third-line button a {
-  text-decoration: none;
-}
-
-.third-line button :visited {
-  color: black;
-}
-.third-line button :hover {
-  border: black 2px solid;
-  padding: 7px 2px;
-  border-radius: 5px;
+.nextpage {
 }
 .nextbox {
   position: relative;
@@ -207,7 +194,7 @@ body {
 
 .book_title {
   margin-top: 20px;
-  font-size: 30px;
+  font-size: 27px;
   margin-left: 10px;
 }
 .book_title span {
@@ -220,8 +207,8 @@ body {
   opacity: 60%;
 }
 .book img {
-  width: 800px;
-  height: 430px;
+  width: 750px;
+  height: 480px;
   margin-top: 20px;
   border: black 2px solid;
 }
@@ -230,11 +217,27 @@ body {
   box-sizing: border-box;
   margin-left: 10px;
 }
-.research h2 {
+.research_qu2 {
   margin-top: 40px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 23px;
+  font-family: "MapoGoldenPier";
 }
-.research_qu {
-  margin-top: 20px;
+.right {
+  opacity: 80%;
+}
+.research_qu1 {
+  margin-bottom: 20px;
+  margin-top: 40px;
+  padding-left: 60px;
+  font-size: 20px;
+}
+.leader-box {
+  padding-left: 60px;
+  line-height: 30px;
+
+  font-family: "IBMPlexSansKR-Medium";
 }
 .research_info {
   margin-left: 40px;
@@ -254,56 +257,7 @@ body {
   margin-top: 20px;
   justify-content: center;
 }
-.first_research span:first-child {
-  padding-right: 10px;
-}
-.angry {
-  padding-left: 10px;
-}
-.research_qu2 {
-  margin-top: 30px;
-  line-height: 23px;
-  text-align: center;
-}
-.second-research {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-  justify-content: center;
-}
-.second-research span:first-child {
-  padding-right: 10px;
-}
-.circle {
-  padding-left: 10px;
-}
-.research_info3 {
-  margin-top: 20px;
-}
-.research_qu3 {
-  margin-top: 20px;
-}
-.research_info3 input {
-  padding: 15px;
-  width: 90%;
-  border: black 1px solid;
-  font-family: "HangeulNuri-Bold";
-}
-.research_info3 input::placeholder {
-  font-family: "KOTRA_BOLD-Bold";
-  text-align: center;
-}
-.submit {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-}
-.submit input {
-  padding: 10px 40px;
-  font-family: "KOTRA_BOLD-Bold";
-  font-size: 20px;
-  border-radius: 20%;
-}
+
 .book-infobox {
   margin-top: 10px;
   margin-left: 10px;
