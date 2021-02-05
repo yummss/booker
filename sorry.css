@@ -40,7 +40,6 @@
 }
 body {
   font-family: "KOTRA_BOLD-Bold";
-  height: 100vh;
 }
 .first-line {
   display: flex;
@@ -48,7 +47,8 @@ body {
   align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #fcedda;
+  background-color: #fcf6f5;
+  color: #990011;
 }
 .first-line img {
   height: 70px;
@@ -65,7 +65,7 @@ body {
   align-items: center;
   padding-top: 10px;
   padding-bottom: 8px;
-  background-color: #ee4e34;
+  background-color: #990011;
 }
 
 .second-line_b {
@@ -77,73 +77,23 @@ body {
 .second-line button {
   font-size: 15px;
   border: none;
-  background-color: #ee4e34;
+  background-color: #990011;
   border-radius: 10px;
   font-family: "KOTRA_BOLD-Bold";
   padding: 5px;
+  color: #fcf6f5;
 }
 .second-line button :visited {
-  color: #fcedda;
+  color: #fcf6f5;
 }
 .second-line button a {
   text-decoration: none;
 }
-
-.main-box {
-  margin-left: 250px;
-  margin-right: 250px;
-  line-height: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
-  padding-top: 20px;
-}
-
-.question {
-  font-size: 22px;
-  margin-bottom: 10px;
-  color: black;
-  opacity: 70%;
-  font-family: "HangeulNuri-Bold";
-}
-.answer {
-  border: none;
-  border-bottom: 2px gray solid;
-  width: 100%;
-  padding-top: 10px;
-  padding-right: 30px;
-  font-family: "HangeulNuri-Bold";
-  font-size: 22px;
-  outline: none;
-}
-.answer input {
-  display: flex;
-  text-align: center;
-}
-.question:last-child {
-  font-size: 18px;
-}
-.loginbox {
-  margin-bottom: 50px;
-}
-
-input[type="@"] {
-  text-align: center;
-}
-.submit {
-  border: none;
-  background-color: #fcedda;
-  border-radius: 10%;
+.sorry {
   display: flex;
   justify-content: center;
-  text-align: center;
-  color: #ee4e34;
-  padding: 15px 30px;
-  font-family: "KOTRA_BOLD-Bold";
-  font-size: 25px;
-  margin-bottom: 20px;
 }
-.underline {
-  text-decoration: underline;
+.sorry img {
+  width: 80%;
+  height: 700px;
 }
