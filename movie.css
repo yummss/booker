@@ -102,12 +102,7 @@ body {
   font-family: "KOTRA_BOLD-Bold";
   padding: 5px;
 }
-.second-line button :link {
-  color: #fff7d4;
-}
-.third-line button :link {
-  color: #fff7d4;
-}
+
 .second-line button :visited {
   color: #fff7d4;
 }
