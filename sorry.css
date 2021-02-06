@@ -89,7 +89,7 @@ body {
   border-radius: 10px;
   padding: 5px;
 }
-.second-line_b button:link {
+.second-line_b button a:link {
   color: #fcf6f5;
 }
 
