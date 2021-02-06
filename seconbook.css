@@ -266,16 +266,28 @@ body {
   font-size: 21px;
   margin-top: 20px;
 }
-
+.book-infobox_title:first-child {
+  margin-top: 30px;
+}
 .book-infobox_info {
   margin-top: 20px;
   line-height: 25px;
   font-size: 15px;
   font-family: "IBMPlexSansKR-Medium";
 }
-
+.highlight-book {
+  font-family: "IBMPlexSansKR-Bold";
+  font-size: 17px;
+  padding: 10px 0;
+  opacity: 70%;
+}
 .highlight {
   font-family: "IBMPlexSansKR-Bold";
+}
+.coment {
+  font-family: "IBMPlexSansKR-Bold";
+  margin-bottom: 5px;
+  margin-top: 2px;
 }
 .red {
   color: red;
