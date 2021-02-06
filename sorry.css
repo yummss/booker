@@ -87,17 +87,15 @@ body {
   border-radius: 10px;
   padding: 5px;
 }
-
-a:any-link {
-  color: #fcf6f5;
-}
-
-.second-line button :visited {
-  color: #fcf6f5;
-}
 .second-line button a {
   text-decoration: none;
+  color: #fcf6f5;
 }
+
+.second-line button a:visited {
+  color: #fcf6f5;
+}
+
 .sorry {
   display: flex;
   justify-content: center;

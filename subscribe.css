@@ -82,19 +82,15 @@ body {
   font-family: "KOTRA_BOLD-Bold";
   padding: 5px;
 }
-.second-line button :link {
-  color: #fcedda;
-}
-a:any-link {
+.second-line button a {
+  text-decoration: none;
   color: #fcedda;
 }
 
-.second-line button :visited {
+.second-line button a:visited {
   color: #fcedda;
 }
-.second-line button a {
-  text-decoration: none;
-}
+
 .second-line button :hover {
   border: #fcedda 2px solid;
   border-radius: 10px;

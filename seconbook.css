@@ -116,6 +116,8 @@ body {
   padding-bottom: 8px;
   background-color: orange;
 }
+
+
 .second-line button :hover {
   border: black 2px solid;
   border-radius: 10px;
@@ -135,11 +137,13 @@ body {
   font-family: "KOTRA_BOLD-Bold";
   padding: 5px;
 }
-.second-line button :visited {
-  color: black;
-}
 .second-line button a {
   text-decoration: none;
+  color: black;
+}
+
+.second-line button a:visited {
+  color: black;
 }
 
 .third-line {
@@ -168,8 +172,6 @@ body {
 .third-line_book_info span {
   color: red;
 }
-.nextpage {
-}
 .nextbox {
   position: relative;
   top: 40px;
@@ -192,17 +194,13 @@ body {
 }
 .third-line button a {
   text-decoration: none;
-}
-.second-line button :link
-{color: black;}
-.third-line button:link
-{color: black;}
-.third-line button :visited {
   color: black;
 }
-a:any-link {
+
+.third-line button a:visited {
   color: black;
 }
+
 .third-line button :hover {
   border: black 2px solid;
   padding: 7px 2px;
