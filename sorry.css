@@ -89,6 +89,9 @@ body {
   border-radius: 10px;
   padding: 5px;
 }
+.second-line_b button:link {
+  color: #fcf6f5;
+}
 .second-line button:link {
   color: #fcf6f5;
 }
