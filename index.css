@@ -327,7 +327,9 @@ body {
 .highlight {
   font-family: "IBMPlexSansKR-Bold";
 }
-
+.red {
+  color: red;
+}
 .blue {
   color: #339af0;
 }
