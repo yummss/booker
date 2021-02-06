@@ -92,7 +92,7 @@ body {
 .second-line_b button:link {
   color: #fcf6f5;
 }
-.second-line button:link {
+.second-line button:active {
   color: #fcf6f5;
 }
 .second-line button :visited {
