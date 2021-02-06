@@ -120,6 +120,7 @@ body {
   font-family: "HangeulNuri-Bold";
   font-size: 22px;
   outline: none;
+  color: black;
 }
 .answer input {
   display: flex;

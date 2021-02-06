@@ -89,7 +89,7 @@
 }
 body {
   font-family: "KOTRA_BOLD-Bold";
-  height: 1000vh;
+ 
 }
 .first-line {
   display: flex;
@@ -176,11 +176,32 @@ body {
   left: 350px;
 }
 .main-box {
-  height: 1000vh;
+  height: 100vh;
   margin-left: 250px;
   margin-right: 250px;
+  
+}
+.third-line button {
+  border: none;
+  font-family: "KOTRA_BOLD-Bold";
+  font-size: 16px;
+  margin-top: 15px;
+  background-color: bisque;
+  padding: 7px 2px;
+  border-radius: 5px;
+}
+.third-line button a {
+  text-decoration: none;
 }
 
+.third-line button :visited {
+  color: black;
+}
+.third-line button :hover {
+  border: black 2px solid;
+  padding: 7px 2px;
+  border-radius: 5px;
+}
 .cut-line {
   border: 5px bisque dotted;
   border-top: none;
@@ -297,8 +318,7 @@ body {
 }
 .green {
   color: #84b252;
-  font-size: 25px;
-}
+
 .green-small {
   color: #84b252;
   font-size: 17px;
