@@ -123,6 +123,7 @@ body {
   border-radius: 10px;
   font-family: "KOTRA_BOLD-Bold";
   padding: 5px;
+  color: black;
 }
 .second-line button :visited {
   color: black;
@@ -175,7 +176,9 @@ body {
 .third-line button a {
   text-decoration: none;
 }
-
+.third-line button {
+  color: black;
+}
 .third-line button :visited {
   color: black;
 }
