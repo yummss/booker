@@ -190,6 +190,7 @@ body {
   left: 350px;
 }
 .main-box {
+  border: 2px black solid;
   height: 100vh;
   margin-left: 250px;
   margin-right: 250px;
