@@ -125,6 +125,9 @@ body {
   padding: 5px;
   color: black;
 }
+.second-line button :link {
+  color: black;
+}
 .second-line button :visited {
   color: black;
 }
@@ -176,7 +179,8 @@ body {
 .third-line button a {
   text-decoration: none;
 }
-.third-line button {
+
+.third-line button :link {
   color: black;
 }
 .third-line button :visited {

@@ -82,6 +82,9 @@ body {
   font-family: "KOTRA_BOLD-Bold";
   padding: 5px;
 }
+.second-line button :link {
+  color: #fcedda;
+}
 .second-line button :visited {
   color: #fcedda;
 }

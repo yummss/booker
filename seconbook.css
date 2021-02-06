@@ -193,7 +193,10 @@ body {
 .third-line button a {
   text-decoration: none;
 }
-
+.second-line button :link
+{color: black;}
+.third-line button:link
+{color: black;}
 .third-line button :visited {
   color: black;
 }
