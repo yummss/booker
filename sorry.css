@@ -72,9 +72,7 @@ body {
 .second-line_b {
   margin-left: 800px;
 }
-.second-line_a .second-line_a_btn {
-  font-style: strong;
-}
+
 .second-line button {
   font-size: 15px;
   border: none;
