@@ -179,7 +179,9 @@ body {
 .third-line button a {
   text-decoration: none;
 }
-
+a:any-link {
+  color: black;
+}
 .third-line button :link {
   color: black;
 }

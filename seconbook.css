@@ -200,6 +200,9 @@ body {
 .third-line button :visited {
   color: black;
 }
+a:any-link {
+  color: black;
+}
 .third-line button :hover {
   border: black 2px solid;
   padding: 7px 2px;

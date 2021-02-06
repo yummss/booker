@@ -108,6 +108,9 @@ body {
 .second-line button :visited {
   color: #fff7d4;
 }
+a:any-link {
+  color: #fff7d4;
+}
 .second-line button :hover {
   border: #fff7d4 2px solid;
   border-radius: 10px;

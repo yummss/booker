@@ -85,6 +85,10 @@ body {
 .second-line button :link {
   color: #fcedda;
 }
+a:any-link {
+  color: #fcedda;
+}
+
 .second-line button :visited {
   color: #fcedda;
 }
