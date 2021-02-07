@@ -59,6 +59,34 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "RIDIBatang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HangeulNuri-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IBMPlexSansKR-Medium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Medium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KyoboHand";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   font-family: "KOTRA_BOLD-Bold";
   height: 100vh;
@@ -175,13 +203,16 @@ body {
   margin-top: 30px;
   line-height: 25px;
   font-size: 17px;
-  font-family: "BBTreeGB";
+  font-family: "HangeulNuri-Bold";
 }
 .movie-info-highlight {
   color: #234e70;
 }
 .red {
   color: red;
+}
+.blue {
+  color: #00007c;
 }
 .movie-main h5 div {
   text-align: center;
@@ -190,8 +221,8 @@ body {
   text-align: center;
 }
 .movie-info-title {
-  font-family: "Cafe24Oneprettynight";
-  font-size: 20px;
+  font-family: "RIDIBatang";
+  font-size: 25px;
   margin-bottom: 5px;
 }
 .secondimg {
@@ -214,4 +245,13 @@ body {
   width: 40%;
   margin-left: 300px;
   border-radius: 10%;
+}
+.green {
+  color: #046307;
+}
+.book {
+  font-family: "KyoboHand";
+  padding-bottom: 10px;
+  line-height: 36px;
+  font-size: 20px;
 }
